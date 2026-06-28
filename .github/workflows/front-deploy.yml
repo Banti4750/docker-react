@@ -3,9 +3,8 @@ name: Frontend Deploy CI
 
 on:
   push:
-    branches: [main]
-    paths:
-      - "docker-react/**"
+   branches:
+     - main
 
 jobs:
   deploy:
